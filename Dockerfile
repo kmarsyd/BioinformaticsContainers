@@ -29,7 +29,7 @@ RUN mkdir /scratch /shared   #other possible mountings
 
 
 RUN apt-get update  # Ensure the package list is up to date
-RUN yes | bz2 apt-get install autoconf automake make gcc g++ perl zlib1g-dev libbz2-dev liblzma-dev libcurl4-gnutls-dev libssl-dev libncurses5-dev
+RUN yes | apt-get install autoconf automake make gcc g++ perl zlib1g-dev libbz2-dev liblzma-dev libcurl4-gnutls-dev libssl-dev libncurses5-dev
 
 
 
