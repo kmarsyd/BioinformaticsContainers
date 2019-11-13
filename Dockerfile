@@ -16,7 +16,7 @@
 #Start with the broadinstitute docker file which contains samtools 1.19 and JAVA 1.8.0
 FROM broadinstitute/gatk:4.1.2.0
 
-LABEL maintainer="kristian.marash@sydney.edu.au"
+LABEL maintainer="kristian.maras@sydney.edu.au"
 
 #Create a workspace
 WORKDIR /opt
